@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            responsive with media query
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (min-width: 500px) {
+                h1::before {
+                    content: "Welcome to my webpage!";
+                    color: blue;
+                }
+            }
+
+            @media (max-width: 499px) {
+                h1::before {
+                    content: "Welcome!";
+                    color: red;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>
