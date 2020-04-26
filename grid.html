@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css grid</title>
+        <style>
+            .grid {
+                display: grid;
+                margin: 20px;
+                padding: 10px;
+                grid-row: 20px;
+                grid-column: 20px;
+                background-color: black;
+                grid-template-columns: auto auto auto;
+            }
+            .grid > div {
+                text-align: center;
+                padding: 20px;
+                margin: 10px;
+                background-color: greenyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div>a</div>
+            <div>b</div>
+            <div>c</div>
+            <div>d</div>
+            <div>e</div>
+            <div>f</div>
+            <div>g</div>
+            <div>h</div>
+            <div>i</div>
+        </div>
+    </body>
+</html>
